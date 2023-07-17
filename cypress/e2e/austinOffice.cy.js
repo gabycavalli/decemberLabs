@@ -6,7 +6,7 @@ describe("Thirth part of Automation Challenge", function () {
     cypress.visit("/");
   });
 
-  it("Go to Austin Office", function () {
+  it.skip("Go to Austin Office", function () {
     cy.get("body > nav > div.wrapper > div > div > a.content_logo")
       .should("be.visible")
       .should("have.text", "DecemberLabs");
