@@ -3,6 +3,10 @@
     "cypress": "^12.17.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "mocha": "^10.2.0"
+=======
+    "chai": "^4.3.7"
+>>>>>>> c44d7ae00cfac571b2ebbf70663b8fcaa8d71262
   }
 }
